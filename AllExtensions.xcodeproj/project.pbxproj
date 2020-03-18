@@ -52,13 +52,37 @@
 		CE45EFE6241A24CD00F6F1F5 /* AllExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				CE45F000241A255000F6F1F5 /* UIView+Extension.swift */,
-				CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */,
+				CE67DA55242227670015307F /* CAGradientLayer */,
+				CE67DA53242227130015307F /* UIView */,
+				CE67DA54242227550015307F /* UIViewController */,
 				CE45EFE7241A24CD00F6F1F5 /* AllExtensions.h */,
 				CE45EFE8241A24CD00F6F1F5 /* Info.plist */,
-				CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */,
 			);
 			path = AllExtensions;
+			sourceTree = "<group>";
+		};
+		CE67DA53242227130015307F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CE45F000241A255000F6F1F5 /* UIView+Extension.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CE67DA54242227550015307F /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		CE67DA55242227670015307F /* CAGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */,
+			);
+			path = CAGradientLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
