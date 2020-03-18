@@ -10,6 +10,7 @@
 		CE45EFF5241A24CD00F6F1F5 /* AllExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CE45EFE7241A24CD00F6F1F5 /* AllExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE45EFFF241A250100F6F1F5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */; };
 		CE45F001241A255000F6F1F5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45F000241A255000F6F1F5 /* UIView+Extension.swift */; };
+		CE67DA4C242224200015307F /* CAGradientLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		CE45EFE8241A24CD00F6F1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CE45F000241A255000F6F1F5 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +52,11 @@
 		CE45EFE6241A24CD00F6F1F5 /* AllExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				CE45F000241A255000F6F1F5 /* UIView+Extension.swift */,
 				CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */,
 				CE45EFE7241A24CD00F6F1F5 /* AllExtensions.h */,
 				CE45EFE8241A24CD00F6F1F5 /* Info.plist */,
-				CE45F000241A255000F6F1F5 /* UIView+Extension.swift */,
+				CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */,
 			);
 			path = AllExtensions;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				CE45F001241A255000F6F1F5 /* UIView+Extension.swift in Sources */,
 				CE45EFFF241A250100F6F1F5 /* UIViewController+Extension.swift in Sources */,
+				CE67DA4C242224200015307F /* CAGradientLayer+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
