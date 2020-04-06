@@ -47,3 +47,14 @@ extension UIView {
         return gradientView
     }
 }
+
+extension UIView {
+        
+    func addShadow(){
+        self.layer.cornerRadius = 3.0
+        self.layer.shadowColor = UIColor.gray.cgColor
+        self.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        self.layer.shadowRadius = 12.0
+        self.layer.shadowOpacity = 0.4
+    }
+}
