@@ -11,6 +11,17 @@
 		CE45EFFF241A250100F6F1F5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */; };
 		CE45F001241A255000F6F1F5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45F000241A255000F6F1F5 /* UIView+Extension.swift */; };
 		CE67DA4C242224200015307F /* CAGradientLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */; };
+		CEAE386D2523541200AABDD9 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE385F2523541200AABDD9 /* UIApplication+Extension.swift */; };
+		CEAE386F2523541200AABDD9 /* UIColor+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE38622523541200AABDD9 /* UIColor+Extentions.swift */; };
+		CEAE38712523541200AABDD9 /* UINavigationBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE38642523541200AABDD9 /* UINavigationBar+Extensions.swift */; };
+		CEAE38722523541200AABDD9 /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE38652523541200AABDD9 /* NSDictionary+Extension.swift */; };
+		CEAE38732523541200AABDD9 /* InstapeekPaintViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE38662523541200AABDD9 /* InstapeekPaintViews.swift */; };
+		CEAE38742523541200AABDD9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE38672523541200AABDD9 /* String+Extension.swift */; };
+		CEAE38752523541200AABDD9 /* WKWebView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE38682523541200AABDD9 /* WKWebView+Extension.swift */; };
+		CEAE38762523541200AABDD9 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE38692523541200AABDD9 /* GradientView.swift */; };
+		CEAE38772523541200AABDD9 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE386A2523541200AABDD9 /* UITextField+Extension.swift */; };
+		CEAE38782523541200AABDD9 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE386B2523541200AABDD9 /* UICollectionView+Extensions.swift */; };
+		CEAE38792523541200AABDD9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE386C2523541200AABDD9 /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CE45F000241A255000F6F1F5 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extension.swift"; sourceTree = "<group>"; };
+		CEAE385F2523541200AABDD9 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		CEAE38622523541200AABDD9 /* UIColor+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extentions.swift"; sourceTree = "<group>"; };
+		CEAE38642523541200AABDD9 /* UINavigationBar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extensions.swift"; sourceTree = "<group>"; };
+		CEAE38652523541200AABDD9 /* NSDictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extension.swift"; sourceTree = "<group>"; };
+		CEAE38662523541200AABDD9 /* InstapeekPaintViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstapeekPaintViews.swift; sourceTree = "<group>"; };
+		CEAE38672523541200AABDD9 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		CEAE38682523541200AABDD9 /* WKWebView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extension.swift"; sourceTree = "<group>"; };
+		CEAE38692523541200AABDD9 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CEAE386A2523541200AABDD9 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		CEAE386B2523541200AABDD9 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		CEAE386C2523541200AABDD9 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,37 +74,32 @@
 		CE45EFE6241A24CD00F6F1F5 /* AllExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				CE67DA55242227670015307F /* CAGradientLayer */,
-				CE67DA53242227130015307F /* UIView */,
-				CE67DA54242227550015307F /* UIViewController */,
+				CEAE385E2523541200AABDD9 /* Extentions */,
 				CE45EFE7241A24CD00F6F1F5 /* AllExtensions.h */,
 				CE45EFE8241A24CD00F6F1F5 /* Info.plist */,
 			);
 			path = AllExtensions;
 			sourceTree = "<group>";
 		};
-		CE67DA53242227130015307F /* UIView */ = {
+		CEAE385E2523541200AABDD9 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				CEAE385F2523541200AABDD9 /* UIApplication+Extension.swift */,
+				CEAE38622523541200AABDD9 /* UIColor+Extentions.swift */,
+				CEAE38642523541200AABDD9 /* UINavigationBar+Extensions.swift */,
+				CEAE38652523541200AABDD9 /* NSDictionary+Extension.swift */,
+				CEAE38662523541200AABDD9 /* InstapeekPaintViews.swift */,
+				CEAE38672523541200AABDD9 /* String+Extension.swift */,
+				CEAE38682523541200AABDD9 /* WKWebView+Extension.swift */,
+				CEAE38692523541200AABDD9 /* GradientView.swift */,
+				CEAE386A2523541200AABDD9 /* UITextField+Extension.swift */,
+				CEAE386B2523541200AABDD9 /* UICollectionView+Extensions.swift */,
+				CEAE386C2523541200AABDD9 /* Array+Extension.swift */,
+				CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */,
 				CE45F000241A255000F6F1F5 /* UIView+Extension.swift */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		CE67DA54242227550015307F /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
 				CE45EFFE241A250100F6F1F5 /* UIViewController+Extension.swift */,
 			);
-			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		CE67DA55242227670015307F /* CAGradientLayer */ = {
-			isa = PBXGroup;
-			children = (
-				CE67DA4B242224200015307F /* CAGradientLayer+Extension.swift */,
-			);
-			path = CAGradientLayer;
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +183,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAE38742523541200AABDD9 /* String+Extension.swift in Sources */,
+				CEAE38782523541200AABDD9 /* UICollectionView+Extensions.swift in Sources */,
+				CEAE38722523541200AABDD9 /* NSDictionary+Extension.swift in Sources */,
+				CEAE38752523541200AABDD9 /* WKWebView+Extension.swift in Sources */,
+				CEAE38732523541200AABDD9 /* InstapeekPaintViews.swift in Sources */,
+				CEAE38792523541200AABDD9 /* Array+Extension.swift in Sources */,
+				CEAE38712523541200AABDD9 /* UINavigationBar+Extensions.swift in Sources */,
 				CE45F001241A255000F6F1F5 /* UIView+Extension.swift in Sources */,
+				CEAE386F2523541200AABDD9 /* UIColor+Extentions.swift in Sources */,
+				CEAE38772523541200AABDD9 /* UITextField+Extension.swift in Sources */,
 				CE45EFFF241A250100F6F1F5 /* UIViewController+Extension.swift in Sources */,
+				CEAE38762523541200AABDD9 /* GradientView.swift in Sources */,
+				CEAE386D2523541200AABDD9 /* UIApplication+Extension.swift in Sources */,
 				CE67DA4C242224200015307F /* CAGradientLayer+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

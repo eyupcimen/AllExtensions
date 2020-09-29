@@ -58,3 +58,38 @@ extension UIView {
         self.layer.shadowOpacity = 0.4
     }
 }
+
+
+extension UIView {
+    func applyGradient(colours: [UIColor]) -> Void {
+        self.applyGradient(colours: colours, locations: nil)
+    }
+    
+    func applyGradient(colours: [UIColor], locations: [NSNumber]? = [0.0, 1.0]) -> Void {
+        let gradient: CAGradientLayer = CAGradientLayer()
+        gradient.frame = self.bounds
+        gradient.colors = colours.map { $0.withAlphaComponent(0.90).cgColor }
+        gradient.locations = locations
+        gradient.zPosition = -1
+        self.layer.addSublayer(gradient)
+    }
+    
+    func addGradient(_ c1: UIColor,_ c2: UIColor) {
+        let statusBarHeight = UIApplication.shared.statusBarFrame.height
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = CGRect(x: 0, y: -statusBarHeight, width: self.bounds.width, height: self.bounds.height + statusBarHeight)
+        gradientLayer.colors = [c1.cgColor, c2.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 0)
+        gradientLayer.zPosition = -1
+        self.layer.addSublayer(gradientLayer)
+    }
+    
+    func setShadowWithColor(color: UIColor, opacity: Float, offset: CGSize = .zero, radius: CGFloat, cornerRadius: CGFloat,shouldRasterize:Bool=false) {
+        self.layer.cornerRadius = cornerRadius
+        self.layer.shadowColor = color.cgColor
+        self.layer.shadowOpacity = opacity
+        self.layer.shadowRadius = radius
+        self.layer.shadowOffset = offset
+    }
+}
